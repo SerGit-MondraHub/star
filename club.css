@@ -1,0 +1,85 @@
+/* *{outline: 1px dotted red} */
+
+html{
+    font-size: 20px;
+
+}
+
+body{
+    background-color: black;
+    font-family:'space grotesk' ;
+    font-style: italic;
+    color: white;
+}
+
+nav{
+    position: relative;
+    top: -30px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+header{
+    text-shadow: 0px 3px 15px black;
+    padding: 2rem;
+    background-image: url(https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=913&q=80);
+    background-size: cover;
+    background-position: 50% 75%;
+    text-align: center;
+}
+
+section{margin: 0px 10px;}
+
+aside{
+    margin: 5px auto 20px;
+    padding: 1% 2% 5%;
+    line-height: 1.5rem;
+    border:10px double gold;
+    border-top: hidden;
+}
+
+#joinpic{
+    display:flex;
+    justify-content: space-around;
+}
+
+#joinpic figure{
+    display:flex;
+    flex-basis:450px;
+    height: 350px ;
+    overflow: hidden;
+    margin:5px;
+    flex-grow: 1;
+    justify-content: end;
+}
+
+#joinpic img{
+    max-height: 100%;
+    width: auto;
+    
+}
+
+#badge figure{
+    margin: 20px 0px 10px 5px;
+    width: 95%;
+    display:inline-flex;
+   align-items: center;
+}
+
+#badge img{
+    width: 50%;
+    height: 100%;
+
+}
+
+a{color: white;}
+
+@media only screen and (max-width:450px), (orientation:portrait){
+    #joinpic{flex-direction: column;}
+    #joinpic figure{justify-content: center;}
+    #badge figure{display: flex;
+                    flex-direction: column;
+                    font-size:medium} 
+    #badge img{width:80%}
+}
