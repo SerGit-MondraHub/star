@@ -55,7 +55,7 @@ aside{
     overflow: hidden;
     margin:5px;
     flex-grow: 1;
-    justify-content: center;
+    justify-content: end;
 }
 
 #joinpic img{
