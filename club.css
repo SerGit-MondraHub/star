@@ -83,7 +83,7 @@ a{color: white;}
 
 BEFORE ENTERING ANY MEDIA QUERIES MAKE SURE TO INCLUDE THE FULL "META" TAG IN THE HEAD OF THE HTML FILE */
 
-@media only screen and (orientation:landscape)and (max-width:800px){
+@media only screen and (orientation:landscape){
     #joinpic figure{justify-content: end;}
     #joinpic img{
         position: relative;
