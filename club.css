@@ -85,6 +85,12 @@ BEFORE ENTERING ANY MEDIA QUERIES MAKE SURE TO INCLUDE THE FULL "META" TAG IN TH
 
 @media only screen and (orientation:landscape) and (min-width:300px) and (max-width:1000px){
     header{display:none}
+  
+    #joinpic img{
+        position: relative;
+        left: 100px;
+    }
+}
     }
 
 /*@media only screen and (orientation:portrait){
