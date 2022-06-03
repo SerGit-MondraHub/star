@@ -55,7 +55,7 @@ aside{
     overflow: hidden;
     margin:5px;
     flex-grow: 1;
-    justify-content: end;
+    justify-content: center;
 }
 
 #joinpic img{
@@ -83,7 +83,13 @@ a{color: white;}
 
 BEFORE ENTERING ANY MEDIA QUERIES MAKE SURE TO INCLUDE THE FULL "META" TAG IN THE HEAD OF THE HTML FILE */
 
-
+/* @media only screen and (orientation:landscape)and (max-width:800px){
+    #joinpic figure{justify-content: end;}
+    #joinpic img{
+        position: relative;
+        right: -90px;
+    }
+}
 
 @media only screen and (max-width:450px),(orientation:portrait){
     #joinpic{flex-direction: column;}
@@ -92,5 +98,5 @@ BEFORE ENTERING ANY MEDIA QUERIES MAKE SURE TO INCLUDE THE FULL "META" TAG IN TH
                     flex-direction: column;
                     font-size:medium} 
     #badge img{width:80%}
-}
+} */
 
