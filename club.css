@@ -84,7 +84,7 @@ a{color: white;}
 BEFORE ENTERING ANY MEDIA QUERIES MAKE SURE TO INCLUDE THE FULL "META" TAG IN THE HEAD OF THE HTML FILE */
 
 @media only screen and (orientation:landscape){
-    header{display: hide;}
+    header{display: none;}
     
 }
 
