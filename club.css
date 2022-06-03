@@ -84,4 +84,4 @@ a{color: white;}
     #badge img{width:80%}
 }
 
-@media only screen and (max-width:450px) and (orientation:landscape){#joinpic figure{justify-content: end;}
+@media only screen and (orientation:landscape){#joinpic figure{justify-content: end;}}
