@@ -20,8 +20,9 @@ nav{
     position: relative;
     top: -30px;
     width: 100%;
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header{
@@ -96,7 +97,3 @@ BEFORE ENTERING ANY MEDIA QUERIES MAKE SURE TO INCLUDE THE FULL "META" TAG IN TH
                     font-size:medium} 
     #badge img{width:80%}
 }
-
-
-
-
