@@ -82,6 +82,8 @@ a{color: white;}
 
 BEFORE ENTERING ANY MEDIA QUERIES MAKE SURE TO INCLUDE THE FULL "META" TAG IN THE HEAD OF THE HTML FILE */
 
+@media only screen and (orientation:landscape){#joinpic figure{justify-content: end;}}
+
 @media only screen and (max-width:450px),(orientation:portrait){
     #joinpic{flex-direction: column;}
     #joinpic figure{justify-content: center;}
@@ -91,4 +93,4 @@ BEFORE ENTERING ANY MEDIA QUERIES MAKE SURE TO INCLUDE THE FULL "META" TAG IN TH
     #badge img{width:80%}
 }
 
-@media only screen and (orientation:landscape){#joinpic figure{justify-content: end;}}
+
