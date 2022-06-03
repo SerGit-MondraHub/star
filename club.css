@@ -83,10 +83,9 @@ a{color: white;}
 
 BEFORE ENTERING ANY MEDIA QUERIES MAKE SURE TO INCLUDE THE FULL "META" TAG IN THE HEAD OF THE HTML FILE */
 
-@media only screen and (orientation:landscape){
-    header{display: none;}
-    
-}
+@media only screen and (orientation:landscape) and (min-width:300px) and (max-width:2000px){
+    header{display:none}
+    }
 
 /*@media only screen and (orientation:portrait){
     #joinpic{flex-direction: column;}
