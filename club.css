@@ -85,7 +85,9 @@ BEFORE ENTERING ANY MEDIA QUERIES MAKE SURE TO INCLUDE THE FULL "META" TAG IN TH
 
 @media only screen and (orientation:landscape){
     #joinpic figure{justify-content: end;}
-   
+    #joinpic img{
+        position: relative;
+        right: -90px;
     }
 }
 
