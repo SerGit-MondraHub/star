@@ -88,7 +88,7 @@ BEFORE ENTERING ANY MEDIA QUERIES MAKE SURE TO INCLUDE THE FULL "META" TAG IN TH
     
 }
 
-@media only screen and (orientation:portrait){
+/*@media only screen and (orientation:portrait){
     #joinpic{flex-direction: column;}
     #badge figure{display: flex;
                     flex-direction: column;
