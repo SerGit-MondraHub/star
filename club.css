@@ -91,7 +91,7 @@ BEFORE ENTERING ANY MEDIA QUERIES MAKE SURE TO INCLUDE THE FULL "META" TAG IN TH
         left: 5px;
     }
 }
-    }
+
 
 /*@media only screen and (orientation:portrait){
     #joinpic{flex-direction: column;}
