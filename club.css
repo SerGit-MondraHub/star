@@ -55,7 +55,7 @@ aside{
     overflow: hidden;
     margin:5px;
     flex-grow: 1;
-    justify-content: end;
+    justify-content: center;
 }
 
 #joinpic img{
@@ -84,7 +84,7 @@ a{color: white;}
 BEFORE ENTERING ANY MEDIA QUERIES MAKE SURE TO INCLUDE THE FULL "META" TAG IN THE HEAD OF THE HTML FILE */
 
 @media only screen and (orientation:landscape){
-    #joinpic figure{justify-content: end;}
+    #joinpic figure{justify-content: start;}
     
 }
 
