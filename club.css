@@ -88,7 +88,7 @@ BEFORE ENTERING ANY MEDIA QUERIES MAKE SURE TO INCLUDE THE FULL "META" TAG IN TH
   
     #joinpic img{
         position: relative;
-        left: 50px;
+        left: 5px;
     }
 }
     }
