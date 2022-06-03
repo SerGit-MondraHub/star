@@ -86,7 +86,7 @@ BEFORE ENTERING ANY MEDIA QUERIES MAKE SURE TO INCLUDE THE FULL "META" TAG IN TH
 
 @media only screen and (max-width:450px),(orientation:portrait){
     #joinpic{flex-direction: column;}
-   
+   #joinpic figure{justify-content: center;}
     #badge figure{display: flex;
                     flex-direction: column;
                     font-size:medium} 
